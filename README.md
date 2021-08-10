@@ -3,6 +3,9 @@ FetchDefaults.js
 [![NPM version][npm-badge]](https://www.npmjs.com/package/fetch-defaults)
 [![Build status][travis-badge]](https://travis-ci.org/moll/js-fetch-defaults)
 
+给Fetch添加default options(全局设置，比如设置前置token)
+=======================================================
+
 FetchDefaults.js is a mixin for the [Fetch API][fetch] for browsers and Node.js that allows you to set a base URL (to then make relative requests) and default options (such as headers) for `fetch` calls. It's functional and immutable, in that it doesn't modify any objects given to it.
 
 [npm-badge]: https://img.shields.io/npm/v/fetch-defaults.svg
